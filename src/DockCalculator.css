@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body {
+    font-family: 'Questrial', sans-serif; /* Use Questrial font */
+    background-color: #0e1415; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit max width */
+    padding: 25px 50px 25px 50px;
+    background-color: #252b2c; /* White background for the container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    color: #dee4e4; /* Dark gray color for the title */
+    text-align: center; /* Center the title */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Space below the input group */
+}
+
+input {
+    padding: 10px; /* Padding for inputs */
+    background-color: #324b4d;
+    margin-bottom: 10px; /* Space below each input */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for input text */
+}
+
+input:focus {
+    border-color: #cce8ea; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #384764; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button text */
+}
+
+button:hover {
+    background-color: #4D6887; /* Darker blue on hover */
+}
+
+.results {
+    margin-top: 20px; /* Space above results section */
+    padding: 20px; /* Padding for results */
+    background-color: #324b4d; /* Light gray background for results */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.results h2 {
+    margin: 0; /* Remove margin */
+    font-size: 18px; /* Font size for result headers */
+}
+
+.results p {
+    margin: 5px 0; /* Space above and below paragraphs */
+    color: #cce8ea; /* Dark gray color for result text */
+}
